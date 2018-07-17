@@ -1,0 +1,25 @@
+{
+  "name": "ff",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "ff": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "longxiu",
+  "license": "ISC",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "execa": "^0.10.0",
+    "fs-extra": "^6.0.1",
+    "fse": "^4.0.1",
+    "inquirer": "^6.0.0",
+    "listr": "^0.14.1",
+    "shelljs": "^0.8.2",
+    "yargs": "^12.0.1",
+    "yeoman-environment": "^2.3.0"
+  }
+}
