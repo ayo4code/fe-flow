@@ -1,0 +1,36 @@
+{
+  "name": "ff-flow",
+  "version": "0.0.2",
+  "description": "scaffolds manager cli",
+  "bin": {
+    "ff": "./index.js"
+  },
+  "main": "lib/ff.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "execa": "^5.1.1",
+    "fs-extra": "^11.1.0",
+    "inquirer": "^8.0.0",
+    "listr": "^0.14.3",
+    "log-symbols": "^4.1.0",
+    "typescript": "^4.9.5",
+    "yargs": "^17.6.2"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.1",
+    "@types/node": "^18.13.0",
+    "@types/yargs": "^17.0.22",
+    "rimraf": "^5.0.5"
+  },
+  "files": [
+    "lib/",
+    "cli.js"
+  ]
+}
