@@ -3,7 +3,7 @@ A simple workflow tool for create and manager scaffold projects
 
 ## Install
 ```bash
-npm install ff-flow -g
+npm install jqyao-flow -g
 ```
 
 ## Usage
