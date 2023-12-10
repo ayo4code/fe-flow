@@ -2,8 +2,8 @@ import { FFConfig } from '../type'
 export default {
   scaffolds: [
     {
-      name: 'test',
-      repoUrl: 'https://github.com/vivaxy/gt-react-scaffold.git'
+      name: 'ff-node-package-starter',
+      repoUrl: 'git@github.com:ayo4code/ff-node-package-starter.git'
     }
   ]
 } as FFConfig
